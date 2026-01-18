@@ -1,32 +1,40 @@
-# HR Employee Attrition – EDA & Data Preprocessing
+# HR Attrition – EDA & Data Preprocessing
 
-## Project Overview
-This project performs Exploratory Data Analysis (EDA) and data preprocessing on the HR Employee Attrition dataset.  
-The goal is to prepare the dataset for machine learning by handling outliers, encoding categorical variables, and applying feature scaling.
+## 📌 Project Overview
+This project focuses on Exploratory Data Analysis (EDA) and data preprocessing
+performed on the HR Attrition dataset to understand employee attrition patterns.
 
-## Steps Performed
-- Data loading and basic exploration
-- Missing value detection
+## 📊 Dataset
+- Dataset: HR Attrition dataset
+- Records: Employees data
+- Target variable: Attrition
+
+## 🔍 Steps Performed
+- Data loading and understanding
+- Missing value detection (No missing values found)
 - Outlier detection using boxplots
-- Outlier treatment using IQR method
-- Encoding categorical variables (Label Encoding & One-Hot Encoding)
-- Feature scaling (Min-Max Scaling & Standardization)
-- Visualization before and after scaling
+- Outlier handling using IQR method
+- Encoding categorical variables
+- Feature scaling
+- Data visualization
+- Key insights and conclusions
 
-## Tools & Libraries
+## 🛠 Tools & Libraries
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
 
-## Conclusion
-The dataset was successfully cleaned and preprocessed.  
-All features are now numerical and properly scaled, making the data suitable for machine learning models.
+## 📈 Key Insights
+- Certain numeric features contain outliers after applying IQR
+- Proper preprocessing is required before modeling
+- Cleaned data is ready for machine learning models
 
-## Dataset
-IBM HR Analytics Employee Attrition Dataset
+## 📁 Files
+- `HR_Attrition_EDA_Preprocessing.ipynb` – Complete EDA & preprocessing notebook
 
-## 📁 Dataset
-IBM HR Analytics Employee Attrition Dataset
+## 👩‍💻 Author
+**Anjitha Ajayan**  
+Aspiring Data Analyst / Biostatistician / Data Scientist
+
